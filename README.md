@@ -1,55 +1,48 @@
 # Hi there, I'm Donald 👋
 
-Cystic fibrosis double-lung transplant recipient at Penn Medicine three years ago, I am now forging an extraordinary path from a foundation in design and 12 years of leadership in finance to excelling in genomic data, artificial intelligence, and digital health. Currently pursuing a master's at Westminster University, I am developing cutting-edge tools on GitHub to empower scientists to navigate the complexities of the UK Biobank and other research databases via cloud services. I am an incredibly fast learner who thrives on tackling complexity and delivering results in challenging, high-stakes projects. I seek a December-January internship to refine my skills and contribute to meaningful work. With a drive to prove myself, I am a valuable candidate for a small, established group of scientists seeking an individual with multiple skills and a passion for making a transformative impact.
+Cystic fibrosis double-lung transplant recipient at Penn Medicine three years ago, I am now forging an extraordinary path from a foundation in design and 12 years of leadership in finance to excelling in genomic data, artificial intelligence, and digital health. Currently pursuing an MSc in **AI and Digital Health** at Westminster University, I am developing tools on GitHub to empower scientists to navigate the complexities of the UK Biobank and other research databases via cloud services. I am a fast learner who thrives on tackling complexity and delivering results in challenging, high-stakes projects.  
 
 ## 🔭 Current Projects
 
-- **MSc Research Project**: Investigating genomic influences and adjusting biomarkers to enhance diagnostic accuracy. Utilizing advanced statistical models and AI to identify significant genetic markers, aiming to improve early detection and diagnosis of diseases.
-- **UK Biobank RAP Interaction Tool**: Developing a GitHub repository [biobankly](https://github.com/biobankly) to simplify interaction with the new UK Biobank Research Analysis Platform (RAP).
-- **Genomics England and TwinsUK**: Engaging in projects involving large-scale genomics data from Genomics England and TwinsUK cohorts.
+- **MSc Research Project**: Investigating whether UK Biobank studies converge on a universal “core” set of features or fragment into siloed groups. The project applies a **three-stage hybrid feature-extraction pipeline**, combining large-scale PDF-to-JSON conversion, semantic chunking, advanced text cleaning, and feature-matching with LLM validation. Methods such as bootstrap resampling, Gini coefficients, and multi-stage matching are used to strengthen reproducibility and reduce false positives in feature selection. The goal is to refine scientific validity and provide a stronger framework for understanding how research fields use UK Biobank data.  
+  *Confidentiality Note: Full methodological details and results are withheld pending dissertation submission and academic review.*  
+- **UK Biobank RAP Interaction Tool**: Developing a GitHub repository [biobankly](https://github.com/biobankly) to simplify interaction with the new UK Biobank Research Analysis Platform (RAP). Also building [dodo.biobankly.com](https://dodo.biobankly.com), a working demo to showcase simplified data access workflows.  
 
 ## 💻 Technologies & Tools
 
-- **Programming Languages**: Python, R
-- **Machine Learning Frameworks**: PyTorch
-- **Data Manipulation**: NumPy, Polars
-- **Data Visualization**: Matplotlib
-- **Cloud Computing & DevOps**:
-  - AWS Lambda
-  - Serverless Instances
-  - Docker & Dockerfiles
-  - CI/CD Pipelines
-  - Team Collaboration Tools
-- **Version Control**: Git, GitHub
-- **Databases**: Handling large genomics datasets
+- **Programming Languages**: Python, R  
+- **Machine Learning Frameworks**: PyTorch  
+- **Data Manipulation**: NumPy, pandas  
+- **Data Visualization**: Matplotlib  
+- **DevOps & Infrastructure**:  
+  - AWS Lambda  
+  - Docker & Dockerfiles  
+  - CI/CD Pipelines  
+  - Team Collaboration Tools  
+- **Version Control**: Git, GitHub  
+- **Databases**: Handling large genomics datasets  
 
 ## 🌱 I'm currently learning
 
-- Advanced statistical techniques (Statistics 2)
-- Cutting-edge AI methodologies in healthcare
-- Efficient data processing with Polars
-- Cloud services and serverless architectures
-
-## 🤝 Seeking Opportunities
-
-I am actively seeking a December-January internship to refine my skills and contribute to meaningful work. With a drive to prove myself, I aim to be a valuable candidate for a small, established group of scientists seeking an individual with multiple skills and a passion for making a transformative impact.
+- Advanced statistical techniques (Statistics 2)  
+- Fine-tuning smaller open-source models for specific applications using LoRA and transformer architectures  
+- How embeddings work in practice and how to align them with domain-specific datasets  
+- Developing a deeper understanding of how LLMs operate under the hood, and exploring ways to adapt them for automation, workflow orchestration, and domain-specific biomedical research  
 
 ## 🌐 Personal Website
 
-- **Website**: [donphi.work](https://donphi.work)
+- **Website**: [donphi.work](https://donphi.work)  
 
 ## 📫 Get in Touch
 
-- **LinkedIn**: [donphi](https://www.linkedin.com/in/donphi)
+- **LinkedIn**: [donphi](https://www.linkedin.com/in/donphi)  
 
 ## ⚡ Fun Facts
 
-- I love exercising and spending time on my Peloton.
-- I'm always finding efficient ways to adjust my daily routine.
-- I love snow and skiing.
-- Enthusiast of fringe culture, street art, and beautiful design.
-- Proud dog parent to my dog, Winter.
+- I love exercising and spending time spinning.  
+- I'm always finding efficient ways to adjust my daily routine.  
+- I love snow and skiing.  
+- Enthusiast of fringe culture, street art, and beautiful design.  
+- Proud dog parent to my dog, Winter.  
 
 ---
-
-Feel free to explore my repositories and get in touch if you're interested in collaboration or want to chat about data science and AI!
