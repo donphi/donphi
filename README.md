@@ -1,6 +1,6 @@
 # Hi there, I'm Donald 👋
 
-Cystic fibrosis double-lung transplant recipient at Penn Medicine three years ago, I am now forging an extraordinary path from a foundation in design and 12 years of leadership in finance to excelling in artificial intelligence and digital health. Currently pursuing an MSc in **AI and Digital Health** at Westminster University, I am developing tools on GitHub to empower scientists to navigate the complexities of the UK Biobank and other research databases via cloud services. I am a fast learner who thrives on tackling complexity and delivering results in challenging, high-stakes projects.  
+Double lung and liver transplant recipient: The 141st person to undergo the combined procedure at Penn Medicine. From a foundation in design and 12 years of leadership in finance, I am now excelling in artificial intelligence and digital health. Currently pursuing an MSc in **AI and Digital Health** at Westminster University, I am developing tools on GitHub to empower scientists to navigate the complexities of the UK Biobank and other research databases via cloud services. I am a fast learner who thrives on tackling complexity and delivering results in challenging, high-stakes projects.  
 
 ## 🔭 Current Projects
 
@@ -20,7 +20,7 @@ Cystic fibrosis double-lung transplant recipient at Penn Medicine three years ag
   - CI/CD Pipelines  
   - Team Collaboration Tools  
 - **Version Control**: Git, GitHub  
-- **Databases**: Handling large biomedical datasets  
+- **Databases**: Handling large datasets  
 
 ## 🌱 I'm currently learning
 
