@@ -1,8 +1,8 @@
-# 🚀 Donald Philp — Research Engineer (AI, Large-Scale Data Systems)
+# 🚀 Donald Philp: Research Engineer (AI, Large-Scale Data Systems)
 
 Survivor of a combined double-lung and liver transplant (141st globally at Penn Medicine). This experience reshaped my priorities: I now build infrastructure and tooling that strengthen scientific reliability and accelerate discovery.
 
-My background spans design, high-stakes operations, and 12 years of leadership in finance. Today, I focus on **AI systems engineering**—large-scale multimodal pipelines, reproducible ML workflows, and research-enabling infrastructure for biomedical science. I am completing an MSc in **Artificial Intelligence & Digital Health** at Westminster while developing high-throughput research tooling on GitHub.
+My background spans design, high-stakes operations, and 12 years of leadership in finance. Today, I focus on **AI systems engineering**:large-scale multimodal pipelines, reproducible ML workflows, and research-enabling infrastructure for biomedical science. I am completing an MSc in **Artificial Intelligence & Digital Health** at Westminster while developing high-throughput research tooling on GitHub.
 
 I thrive in environments with hard technical problems, high ambiguity, and complex data flows. My focus is the **system**, not the spotlight: building the foundations that make scientific and ML workflows robust, scalable, and trustworthy.
 
@@ -26,7 +26,7 @@ Investigating whether UK Biobank studies converge on a stable “core” feature
 - Designed for **reproducible meta-research** and bias detection  
 *Some details withheld pending dissertation submission.*
 
-### **3. Biobankly — Simplifying RAP Workflows**
+### **3. Biobankly : Simplifying RAP Workflows**
 Building tools to streamline access to the UK Biobank Research Analysis Platform.
 
 - GitHub: https://github.com/biobankly
