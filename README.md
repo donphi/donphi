@@ -1,48 +1,84 @@
-# Hi there, I'm Donald 👋
+# 🚀 Donald Philp — Research Engineer (AI, Large-Scale Data Systems)
 
-Double lung and liver transplant recipient: The 141st person to undergo the combined procedure at Penn Medicine. From a foundation in design and 12 years of leadership in finance, I am now excelling in artificial intelligence and digital health. Currently pursuing an MSc in **AI and Digital Health** at Westminster University, I am developing tools on GitHub to empower scientists to navigate the complexities of the UK Biobank and other research databases via cloud services. I am a fast learner who thrives on tackling complexity and delivering results in challenging, high-stakes projects.  
+Survivor of a combined double-lung and liver transplant (141st globally at Penn Medicine). This experience reshaped my priorities: I now build infrastructure and tooling that strengthen scientific reliability and accelerate discovery.
 
-## 🔭 Current Projects
+My background spans design, high-stakes operations, and 12 years of leadership in finance. Today, I focus on **AI systems engineering**—large-scale multimodal pipelines, reproducible ML workflows, and research-enabling infrastructure for biomedical science. I am completing an MSc in **Artificial Intelligence & Digital Health** at Westminster while developing high-throughput research tooling on GitHub.
 
-- **MSc Research Project**: Investigating whether UK Biobank studies converge on a universal “core” set of features or fragment into siloed groups. The project applies a **three-stage hybrid feature-extraction pipeline**, combining large-scale PDF-to-JSON conversion, semantic chunking, advanced text cleaning, and feature-matching with LLM validation. Methods such as bootstrap resampling, Gini coefficients, and multi-stage matching are used to strengthen reproducibility and reduce false positives in feature selection. The goal is to refine scientific validity and provide a stronger framework for understanding how research fields use UK Biobank data.  
-  *Confidentiality Note: Full methodological details and results are withheld pending dissertation submission and academic review.*  
-- **UK Biobank RAP Interaction Tool**: Developing a GitHub repository [biobankly](https://github.com/biobankly) to simplify interaction with the new UK Biobank Research Analysis Platform (RAP). Also building [dodo.biobankly.com](https://dodo.biobankly.com), a working demo to showcase simplified data access workflows.  
+I thrive in environments with hard technical problems, high ambiguity, and complex data flows. My focus is the **system**, not the spotlight: building the foundations that make scientific and ML workflows robust, scalable, and trustworthy.
 
-## 💻 Technologies & Tools
+---
 
-- **Programming Languages**: Python, R  
-- **Machine Learning Frameworks**: PyTorch  
-- **Data Manipulation**: NumPy, pandas  
-- **Data Visualization**: Matplotlib  
-- **DevOps & Infrastructure**:  
-  - AWS Lambda  
-  - Docker & Dockerfiles  
-  - CI/CD Pipelines  
-  - Team Collaboration Tools  
-- **Version Control**: Git, GitHub  
-- **Databases**: Handling large datasets  
+## 🔭 Current Work
 
-## 🌱 I'm currently learning
+### **1. Large-Scale Scientific Pipeline (PDF → JSON → Ontology-Aligned Metadata)**
+A 23-stage, GPU-aware multimodal pipeline integrating Docling, Marker, LayoutLMv3-DocLayNet, PaddleOCR, and a custom token-spine alignment framework.
 
-- Advanced statistical techniques (Statistics 2)  
-- Fine-tuning smaller open-source models for specific applications using LoRA and transformer architectures  
-- How embeddings work in practice and how to align them with domain-specific datasets  
-- Developing a deeper understanding of how LLMs operate under the hood, and exploring ways to adapt them for automation, workflow orchestration, and domain-specific biomedical research  
+- Designed for **8,500+ UK Biobank papers**; scalable to **6–20M biomedical papers**
+- Deterministic manifests, structured logs, hardware-adaptive batch tuning
+- Ontology-aligned extraction (EFO, HPO, MONDO, LOINC)
+- Distributed embedding + retrieval using vLLM, FAISS, Elasticsearch
 
-## 🌐 Personal Website
+### **2. UK Biobank Research Analysis – Core/Periphery Feature Mapping**
+Investigating whether UK Biobank studies converge on a stable “core” feature set or fragment into independent silos.
 
-- **Website**: [donphi.work](https://donphi.work)  
+- Semantic chunking, multimodal extraction, ontology matching
+- Bootstrap stability analysis, Gini coefficients, feature overlap metrics
+- Designed for **reproducible meta-research** and bias detection  
+*Some details withheld pending dissertation submission.*
 
-## 📫 Get in Touch
+### **3. Biobankly — Simplifying RAP Workflows**
+Building tools to streamline access to the UK Biobank Research Analysis Platform.
 
-- **LinkedIn**: [donphi](https://www.linkedin.com/in/donphi)  
+- GitHub: https://github.com/biobankly
+- Demo: https://dodo.biobankly.com
 
-## ⚡ Fun Facts
+Focus: user-friendly, cloud-based execution of reproducible R and Python workflows.
 
-- I love exercising and spending time spinning.  
-- I'm always finding efficient ways to adjust my daily routine.  
-- I love snow and skiing.  
-- Enthusiast of fringe culture, street art, and beautiful design.  
-- Proud dog parent to my dog, Winter.  
+---
+
+## 🛠️ Technical Focus & Tooling
+
+### **Core Areas**
+- Large-scale multimodal data systems  
+- Distributed compute & GPU-optimised pipelines  
+- Deterministic research workflows  
+- Scientific data extraction & ontology alignment  
+- Reproducible ML infrastructure  
+
+### **Technologies**
+- **Python**, R  
+- **PyTorch**, vLLM, Hugging Face  
+- **Docling, Marker, PaddleOCR, LayoutLMv3**, ALTO/HOCR  
+- **FAISS**, Elasticsearch/OpenSearch  
+- **Polars**, NumPy  
+- **Docker (GPU), CUDA 12.x**, Linux  
+- **AWS**, CI/CD, container orchestration  
+- **GitHub Actions**, reproducible builds  
+
+---
+
+## 🌱 Currently Deepening
+- Advanced statistical modelling (Statistics II)  
+- Low-rank adaptation (LoRA) and domain-specific fine-tuning  
+- Embedding architectures and alignment across ontologies  
+- ML systems design for biomedical automation  
+
+---
+
+## 🌐 Website  
+**https://donphi.work**
+
+---
+
+## 📫 Connect  
+**LinkedIn:** https://www.linkedin.com/in/donphi
+
+---
+
+## ⚡ Personal Notes
+- Enthusiast of structured endurance training and performance tracking.
+- Lifelong snowboarder and winter-sports enthusiast  
+- Passionate about design, visual systems, and well-engineered software  
+- Dog parent to Winter  
 
 ---
