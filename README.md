@@ -2,83 +2,59 @@
 
 Survivor of a combined double-lung and liver transplant (141st globally at Penn Medicine). This experience reshaped my priorities: I now build infrastructure and tooling that strengthen scientific reliability and accelerate discovery.
 
-My background spans design, high-stakes operations, and 12 years of leadership in finance. Today, I focus on **AI systems engineering**:large-scale multimodal pipelines, reproducible ML workflows, and research-enabling infrastructure for biomedical science. I am completing an MSc in **Artificial Intelligence & Digital Health** at Westminster while developing high-throughput research tooling on GitHub.
+My background spans design, high-stakes operations, and 12 years of leadership in finance. Today, I focus on **AI systems engineering**: large-scale multimodal pipelines, reproducible ML workflows, and research-enabling infrastructure for biomedical science. I am completing an MSc in **Artificial Intelligence & Digital Health** while developing this high-throughput research system.
 
-I thrive in environments with hard technical problems, high ambiguity, and complex data flows. My focus is the **system**, not the spotlight: building the foundations that make scientific and ML workflows robust, scalable, and trustworthy.
+I thrive on hard technical problems, high ambiguity, and complex data flows. My focus is the **system**: building the foundations that make scientific and ML workflows robust, scalable, and trustworthy.
 
 ---
 
-## 🔭 Current Work
+## 🔭 Core Project: (MSc) End-to-End Scientific Data System
 
-### **1. Large-Scale Scientific Pipeline (PDF → JSON → Ontology-Aligned Metadata)**
-A 23-stage, GPU-aware multimodal pipeline integrating Docling, Marker, LayoutLMv3-DocLayNet, PaddleOCR, and a custom token-spine alignment framework.
+I am currently building a single, cohesive system to process, index, and validate the UK Biobank research corpus. It is composed of three primary layers:
 
-- Designed for **8,500+ UK Biobank papers**; scalable to **6–20M biomedical papers**
-- Deterministic manifests, structured logs, hardware-adaptive batch tuning
-- Ontology-aligned extraction (EFO, HPO, MONDO, LOINC)
-- Distributed embedding + retrieval using vLLM, FAISS, Elasticsearch
+### 1. The Ingestion Layer: 23-Stage Multimodal Pipeline
+A GPU-aware orchestration pipeline (Prefect, RabbitMQ) to convert raw PDFs into structured JSON. It integrates Docling, Marker, LayoutLMv3, and PaddleOCR and is built with hardware-aware profiles for DGX B200 and RTX 6000-class GPUs.
 
-### **2. UK Biobank Research Analysis – Core/Periphery Feature Mapping**
-Investigating whether UK Biobank studies converge on a stable “core” feature set or fragment into independent silos.
+### 2. The Knowledge Base Layer: Ontology & Indexing
+A data engineering pipeline that builds a searchable knowledge base. It parses raw MONDO/HPO/EFO ontology files into a DuckDB graph, and a parallel-processing ETL script indexes semantically-chunked documents into Elasticsearch.
 
-- Semantic chunking, multimodal extraction, ontology matching
-- Bootstrap stability analysis, Gini coefficients, feature overlap metrics
-- Designed for **reproducible meta-research** and bias detection  
-*Some details withheld pending dissertation submission.*
-
-### **3. Biobankly : Simplifying RAP Workflows**
-Building tools to streamline access to the UK Biobank Research Analysis Platform.
-
-- GitHub: https://github.com/biobankly
-- Demo: https://dodo.biobankly.com
-
-Focus: user-friendly, cloud-based execution of reproducible R and Python workflows.
+### 3. The Application Layer: HITL Alias Miner & Validation
+An ML-driven Flask application that validates scientific features. It uses SapBERT embeddings to find and score potential aliases from the corpus, then presents them to a human reviewer. The result is a high-quality, verified `feature_cards.jsonl` dataset for downstream model training.
 
 ---
 
 ## 🛠️ Technical Focus & Tooling
 
-### **Core Areas**
-- Large-scale multimodal data systems  
-- Distributed compute & GPU-optimised pipelines  
-- Deterministic research workflows  
-- Scientific data extraction & ontology alignment  
-- Reproducible ML infrastructure  
+### Core Areas
+- Large-scale multimodal data systems
+- Distributed compute & GPU-optimised pipelines
+- Deterministic research workflows
+- Ontology-driven feature extraction
+- Human-in-the-Loop (HITL) validation pipelines
+- Reproducible ML infrastructure
 
-### **Technologies**
-- **Python**, R  
-- **PyTorch**, vLLM, Hugging Face  
-- **Docling, Marker, PaddleOCR, LayoutLMv3**, ALTO/HOCR  
-- **FAISS**, Elasticsearch/OpenSearch  
-- **Polars**, NumPy  
-- **Docker (GPU), CUDA 12.x**, Linux  
-- **AWS**, CI/CD, container orchestration  
-- **GitHub Actions**, reproducible builds  
+### Technologies
+- **Python**, R
+- **PyTorch**, **vLLM**, **Hugging Face**, **Lifelines**, **SHAP**
+- **Docling**, **Marker**, **PaddleOCR**, **LayoutLMv3**
+- **FAISS**, **Elasticsearch**, **PostgreSQL**, **DuckDB**
+- **Polars**, Pandas, NumPy
+- **Prefect**, **RabbitMQ**, **Flask**
+- **Docker (GPU)**, **CUDA 12.x**, **Linux**
+- **React**, **D3.js**, CI/CD
 
 ---
 
 ## 🌱 Currently Deepening
-- Advanced statistical modelling (Statistics II)  
-- Low-rank adaptation (LoRA) and domain-specific fine-tuning  
-- Embedding architectures and alignment across ontologies  
-- ML systems design for biomedical automation  
+- Low-rank adaptation (LoRA) and domain-specific fine-tuning
+- Analyzing research on latent space dimensionality and its connection to model capabilities (e.g., language context vs. multi-modal world modeling).
+- ML systems design for biomedical automation
+- Advanced statistical modelling (Statistics II)
 
 ---
 
-## 🌐 Website  
-**https://donphi.work**
+## 🌐 Website
+[https://donphi.work](https://donphi.work)
 
----
-
-## 📫 Connect  
-**LinkedIn:** https://www.linkedin.com/in/donphi
-
----
-
-## ⚡ Personal Notes
-- Enthusiast of structured endurance training and performance tracking.
-- Lifelong snowboarder and winter-sports enthusiast  
-- Passionate about design, visual systems, and well-engineered software  
-- Dog parent to Winter  
-
----
+## 📫 Connect
+LinkedIn: [https://www.linkedin.com/in/donphi](https://www.linkedin.com/in/donphi)
