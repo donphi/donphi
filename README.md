@@ -1,4 +1,3 @@
-# Donald Philp
 # 🚀 Research Engineer (AI, Large-Scale Data Systems)
 
 Survivor of a combined double-lung and liver transplant (141st globally at Penn Medicine). This experience reshaped my priorities: I now build infrastructure and tooling that strengthen scientific reliability and accelerate discovery.
