@@ -24,10 +24,10 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 
 ICONS = {
-    "email_phone.svg": (40, 40),
-    "email_mail.svg": (40, 40),
-    "email_linkedin.svg": (40, 40),
-    "email_whatsapp.svg": (40, 40),
+    "email_phone.svg": (80, 80),
+    "email_mail.svg": (80, 80),
+    "email_linkedin.svg": (80, 80),
+    "email_whatsapp.svg": (80, 80),
 }
 
 
